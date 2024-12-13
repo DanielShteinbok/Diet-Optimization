@@ -1,0 +1,17 @@
+﻿Nutrient,Daily Requirement,Weekly Requirement,Monthly Requirement,Annual Requirement
+Calories (kcal),3000,21000,90000,1095000
+Protein (g),56,392,1680,20440
+Sodium (mg),2300,16100,69000,839500
+Potassium (mg),4700,32900,141000,1715500
+Calcium (mg),1300,9100,39000,474500
+Magnesium (mg),410,2870,12300,149650
+Zinc (mg),11,77,330,4015
+Iron (mg),11,77,330,4015
+Vitamin A (µg),900,6300,27000,328500
+Vitamin B1 (Thiamin) (mg),1.2,8.4,36,438
+Vitamin B2 (Riboflavin) (mg),1.3,9.1,39,474.5
+Vitamin B3 (Niacin) (mg),16,112,480,5840
+Vitamin B6 (mg),1.3,9.1,39,474.5
+Vitamin B12 (µg),2.4,16.8,72,876
+Vitamin C (mg),75,525,2250,27375
+Vitamin E (mg),15,105,450,5475
