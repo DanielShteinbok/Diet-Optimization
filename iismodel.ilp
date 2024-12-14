@@ -1,0 +1,149 @@
+\ Model New problem_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+\ Signature: 0x7687d1392a9be09f
+Minimize
+ 
+Subject To
+ R61: 13.76 r[j][t][0,3] + 7.75 r[j][t][1,3] + 24 r[j][t][2,3]
+   + 4 r[j][t][3,3] + 1.085 r[j][t][4,3] + 3.8114 r[j][t][5,3]
+   + 2.74 r[j][t][6,3] + 3.4777 r[j][t][7,3] + 5.1756 r[j][t][8,3]
+   + 5.235 r[j][t][9,3] + 6.0386 r[j][t][10,3] + 2.108 r[j][t][11,3]
+   + 2.933 r[j][t][13,3] + 5.1756 r[j][t][14,3] + 1.4074 r[j][t][15,3]
+   + 16.0644 r[j][t][16,3] >= 2.4
+ R1494: - u[i][tau][t][0,0,3] - u[i][tau][t][0,1,3] - u[i][tau][t][0,2,3]
+   - u[i][tau][t][0,3,3] + 227 r[j][t][8,3] = 0
+ R1495: - u[i][tau][t][0,0,3] - u[i][tau][t][0,1,3] - u[i][tau][t][0,2,3]
+   - u[i][tau][t][0,3,3] + 227 r[j][t][14,3] = 0
+ R1552: - u[i][tau][t][2,0,3] - u[i][tau][t][2,1,3] - u[i][tau][t][2,2,3]
+   - u[i][tau][t][2,3,3] + 150 r[j][t][0,3] = 0
+ R1559: - u[i][tau][t][2,0,3] - u[i][tau][t][2,1,3] - u[i][tau][t][2,2,3]
+   - u[i][tau][t][2,3,3] + 70 r[j][t][10,3] = 0
+ R1561: - u[i][tau][t][2,0,3] - u[i][tau][t][2,1,3] - u[i][tau][t][2,2,3]
+   - u[i][tau][t][2,3,3] + 150 r[j][t][15,3] = 0
+ R1618: - u[i][tau][t][3,0,3] - u[i][tau][t][3,1,3] - u[i][tau][t][3,2,3]
+   - u[i][tau][t][3,3,3] + 250 r[j][t][4,3] = 0
+ R1623: - u[i][tau][t][3,0,3] - u[i][tau][t][3,1,3] - u[i][tau][t][3,2,3]
+   - u[i][tau][t][3,3,3] + 220 r[j][t][16,3] = 0
+ R1706: - u[i][tau][t][6,0,3] - u[i][tau][t][6,1,3] - u[i][tau][t][6,2,3]
+   - u[i][tau][t][6,3,3] + 680 r[j][t][13,3] = 0
+ R1707: - u[i][tau][t][6,0,3] - u[i][tau][t][6,1,3] - u[i][tau][t][6,2,3]
+   - u[i][tau][t][6,3,3] + 454 r[j][t][15,3] = 0
+ R1738: - u[i][tau][t][7,0,3] - u[i][tau][t][7,1,3] - u[i][tau][t][7,2,3]
+   - u[i][tau][t][7,3,3] + 50 r[j][t][1,3] = 0
+ R1740: - u[i][tau][t][7,0,3] - u[i][tau][t][7,1,3] - u[i][tau][t][7,2,3]
+   - u[i][tau][t][7,3,3] + 2 r[j][t][16,3] = 0
+ R1832: - u[i][tau][t][12,0,3] - u[i][tau][t][12,1,3]
+   - u[i][tau][t][12,2,3] - u[i][tau][t][12,3,3] + 185 r[j][t][2,3] = 0
+ R1833: - u[i][tau][t][12,0,3] - u[i][tau][t][12,1,3]
+   - u[i][tau][t][12,2,3] - u[i][tau][t][12,3,3] + 180 r[j][t][3,3] = 0
+ R1835: - u[i][tau][t][12,0,3] - u[i][tau][t][12,1,3]
+   - u[i][tau][t][12,2,3] - u[i][tau][t][12,3,3] + 138 r[j][t][11,3] = 0
+ R1901: - u[i][tau][t][14,0,3] - u[i][tau][t][14,1,3]
+   - u[i][tau][t][14,2,3] - u[i][tau][t][14,3,3] + 1000 r[j][t][3,3] = 0
+ R1902: - u[i][tau][t][14,0,3] - u[i][tau][t][14,1,3]
+   - u[i][tau][t][14,2,3] - u[i][tau][t][14,3,3] + 160 r[j][t][4,3] = 0
+ R1905: - u[i][tau][t][14,0,3] - u[i][tau][t][14,1,3]
+   - u[i][tau][t][14,2,3] - u[i][tau][t][14,3,3] + 600 r[j][t][10,3] = 0
+ R1980: - u[i][tau][t][16,0,3] - u[i][tau][t][16,1,3]
+   - u[i][tau][t][16,2,3] - u[i][tau][t][16,3,3] + 200 r[j][t][6,3] = 0
+ R1982: - u[i][tau][t][16,0,3] - u[i][tau][t][16,1,3]
+   - u[i][tau][t][16,2,3] - u[i][tau][t][16,3,3] + 50 r[j][t][12,3] = 0
+ R2042: - u[i][tau][t][19,0,3] - u[i][tau][t][19,1,3]
+   - u[i][tau][t][19,2,3] - u[i][tau][t][19,3,3] + 50 r[j][t][4,3] = 0
+ R2045: - u[i][tau][t][19,0,3] - u[i][tau][t][19,1,3]
+   - u[i][tau][t][19,2,3] - u[i][tau][t][19,3,3] + 250 r[j][t][16,3] = 0
+ R2064: - u[i][tau][t][20,0,3] - u[i][tau][t][20,1,3]
+   - u[i][tau][t][20,2,3] - u[i][tau][t][20,3,3] + 170 r[j][t][5,3] = 0
+ R2065: - u[i][tau][t][20,0,3] - u[i][tau][t][20,1,3]
+   - u[i][tau][t][20,2,3] - u[i][tau][t][20,3,3] + 75 r[j][t][13,3] = 0
+ R2134: - u[i][tau][t][23,0,3] - u[i][tau][t][23,1,3]
+   - u[i][tau][t][23,2,3] - u[i][tau][t][23,3,3] + 544 r[j][t][7,3] = 0
+ R2135: - u[i][tau][t][23,0,3] - u[i][tau][t][23,1,3]
+   - u[i][tau][t][23,2,3] - u[i][tau][t][23,3,3] + 300 r[j][t][13,3] = 0
+ R2337: - u[i][tau][t][33,0,3] - u[i][tau][t][33,1,3]
+   - u[i][tau][t][33,2,3] - u[i][tau][t][33,3,3] + 227 r[j][t][9,3] = 0
+ R2338: - u[i][tau][t][33,0,3] - u[i][tau][t][33,1,3]
+   - u[i][tau][t][33,2,3] - u[i][tau][t][33,3,3] + 340 r[j][t][10,3] = 0
+ R2365: - u[i][tau][t][36,0,3] - u[i][tau][t][36,1,3]
+   - u[i][tau][t][36,2,3] - u[i][tau][t][36,3,3] + 113 r[j][t][10,3] = 0
+ R2366: - u[i][tau][t][36,0,3] - u[i][tau][t][36,1,3]
+   - u[i][tau][t][36,2,3] - u[i][tau][t][36,3,3] + 480 r[j][t][12,3] = 0
+ R2435: - u[i][tau][t][42,0,3] - u[i][tau][t][42,1,3]
+   - u[i][tau][t][42,2,3] - u[i][tau][t][42,3,3] + 60 r[j][t][12,3] = 0
+ R2436: - u[i][tau][t][42,0,3] - u[i][tau][t][42,1,3]
+   - u[i][tau][t][42,2,3] - u[i][tau][t][42,3,3] + 130 r[j][t][14,3] = 0
+Bounds
+ u[i][tau][t][0,0,3] free
+ u[i][tau][t][0,1,3] free
+ u[i][tau][t][0,2,3] free
+ u[i][tau][t][0,3,3] free
+ u[i][tau][t][2,0,3] free
+ u[i][tau][t][2,1,3] free
+ u[i][tau][t][2,2,3] free
+ u[i][tau][t][2,3,3] free
+ u[i][tau][t][3,0,3] free
+ u[i][tau][t][3,1,3] free
+ u[i][tau][t][3,2,3] free
+ u[i][tau][t][3,3,3] free
+ u[i][tau][t][6,0,3] free
+ u[i][tau][t][6,1,3] free
+ u[i][tau][t][6,2,3] free
+ u[i][tau][t][6,3,3] free
+ u[i][tau][t][7,0,3] free
+ u[i][tau][t][7,1,3] free
+ u[i][tau][t][7,2,3] free
+ u[i][tau][t][7,3,3] free
+ u[i][tau][t][12,0,3] free
+ u[i][tau][t][12,1,3] free
+ u[i][tau][t][12,2,3] free
+ u[i][tau][t][12,3,3] free
+ u[i][tau][t][14,0,3] free
+ u[i][tau][t][14,1,3] free
+ u[i][tau][t][14,2,3] free
+ u[i][tau][t][14,3,3] free
+ u[i][tau][t][16,0,3] free
+ u[i][tau][t][16,1,3] free
+ u[i][tau][t][16,2,3] free
+ u[i][tau][t][16,3,3] free
+ u[i][tau][t][19,0,3] free
+ u[i][tau][t][19,1,3] free
+ u[i][tau][t][19,2,3] free
+ u[i][tau][t][19,3,3] free
+ u[i][tau][t][20,0,3] free
+ u[i][tau][t][20,1,3] free
+ u[i][tau][t][20,2,3] free
+ u[i][tau][t][20,3,3] free
+ u[i][tau][t][23,0,3] free
+ u[i][tau][t][23,1,3] free
+ u[i][tau][t][23,2,3] free
+ u[i][tau][t][23,3,3] free
+ u[i][tau][t][33,0,3] free
+ u[i][tau][t][33,1,3] free
+ u[i][tau][t][33,2,3] free
+ u[i][tau][t][33,3,3] free
+ u[i][tau][t][36,0,3] free
+ u[i][tau][t][36,1,3] free
+ u[i][tau][t][36,2,3] free
+ u[i][tau][t][36,3,3] free
+ u[i][tau][t][42,0,3] free
+ u[i][tau][t][42,1,3] free
+ u[i][tau][t][42,2,3] free
+ u[i][tau][t][42,3,3] free
+ r[j][t][0,3] free
+ r[j][t][1,3] free
+ r[j][t][2,3] free
+ r[j][t][3,3] free
+ r[j][t][4,3] free
+ r[j][t][5,3] free
+ r[j][t][6,3] free
+ r[j][t][7,3] free
+ r[j][t][8,3] free
+ r[j][t][9,3] free
+ r[j][t][10,3] free
+ r[j][t][11,3] free
+ r[j][t][12,3] free
+ r[j][t][13,3] free
+ r[j][t][14,3] free
+ r[j][t][15,3] free
+ r[j][t][16,3] free
+End
